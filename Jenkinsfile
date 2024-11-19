@@ -9,12 +9,12 @@ pipeline {
         }
         stage("Compile") {
             steps {
-                sh "javac sample.java"
+                bat "javac sample.java"
             }
         }
         stage("Run") {
             steps {
-                sh "java sample"
+                bat "java sample"
             }
         }
     }
