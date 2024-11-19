@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage(("Checkout")) {
             steps {
-                git brach: "main",url:"https://github.com/Saisrithaja/esm.git"
+                git brach: "main", url:"https://github.com/Saisrithaja/esm.git"
             }
         }
         stage(("Compile")) {
